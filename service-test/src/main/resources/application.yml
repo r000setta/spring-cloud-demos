@@ -1,12 +1,11 @@
 server:
-  port: 8762
-
+  port: 8085
 eureka:
   client:
+    register-with-eureka: false
+    fetch-registry: true
     service-url:
       defaultZone: http://127.0.0.1:8761/eureka/
-  instance:
-    hostname: peer2
 spring:
   application:
-    name: eureka-server1
+    name: service-test
