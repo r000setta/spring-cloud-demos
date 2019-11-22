@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-service" />
         <module name="eureka-server" />
+        <module name="ribbon-test" />
         <module name="eureka-server2" />
       </profile>
     </annotationProcessing>
@@ -15,6 +16,8 @@
       <module name="eureka-server" target="1.8" />
       <module name="eureka-server2" target="1.8" />
       <module name="eureka-service" target="1.8" />
+      <module name="ribbon-service" target="1.8" />
+      <module name="ribbon-test" target="1.8" />
       <module name="service-test" target="1.8" />
       <module name="spring-cloud-eureka" target="1.8" />
     </bytecodeTargetLevel>
@@ -23,6 +26,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-server" options="" />
       <module name="eureka-server2" options="" />
+      <module name="ribbon-service" options="" />
+      <module name="ribbon-test" options="" />
       <module name="service-test" options="" />
     </option>
   </component>
